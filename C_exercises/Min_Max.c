@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int findMax(int num1, int num2, int *pMax, int *pMin){
+int findMinMax(int num1, int num2, int *pMax, int *pMin){
     if(num1>num2){
         *pMin=num2;
         *pMax=num1;
